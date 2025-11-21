@@ -29,7 +29,7 @@ Al ejecutarse, la aplicación muestra mensajes personalizados según el perfil a
 ## 🚀 Cómo clonar y ejecutar el proyecto
 
 ### 1. Clonar el repositorio
-```bash
+
 git clone <URL-del-repositorio>
 cd tareas-springboot
 ### 2. Compilar y ejecutar
@@ -53,22 +53,22 @@ o:
 
 spring.profiles.active=prod
 
-###✔ Opción 2: Desde consola
+### ✔ Opción 2: Desde consola
 mvn spring-boot:run -Dspring-boot.run.profiles=dev
 
-###✔ Opción 3: Desde IntelliJ
+### ✔ Opción 3: Desde IntelliJ
 
 Run → Edit Configurations… → Program arguments:
 
 --spring.profiles.active=prod
-##📸 Capturas de pantalla
+## 📸 Capturas de pantalla
 ▶️ Ejecución con perfil dev
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/ee47d19d-ed5b-4be7-8b5b-867faeb86524" />
 
 ▶️ Ejecución con perfil prod
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f8906dc8-9701-4be4-88f9-b79e332ab83e" />
 
-##Conclusiones personales
+## Conclusiones personales
 
 Durante este trabajo práctico aprendí a utilizar conceptos fundamentales de Spring Boot, tales como:
 
@@ -84,7 +84,7 @@ separación clara por capas (modelo, repositorio, servicios).
 
 Comprendí también cómo Spring gestiona los beans y cómo cambia el comportamiento según el entorno (dev o prod), algo fundamental en aplicaciones reales.
 
-##Autor
+## Autor
 
 Carla Fernández Gremoliche 
 Legajo: 50894
